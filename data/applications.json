@@ -1,0 +1,22 @@
+[
+    {
+        "id": "pilot_6a39363980dcf8.27446556",
+        "pilot_id": "pilot_6a3934e1e28756.48357464",
+        "pilot_name": "Pim Bakker",
+        "pilot_email": "pimbakker2012@gmail.com",
+        "pilot_vatsim": "2010539",
+        "flight_hours": 10,
+        "rating": "S1",
+        "aircraft_preferences": [
+            "A320",
+            "A321"
+        ],
+        "availability": "both",
+        "additional_info": "Test",
+        "status": "approved",
+        "created_at": "2026-06-22 15:18:49",
+        "reviewed_at": "2026-06-22 15:29:26",
+        "reviewed_by": "admin",
+        "notes": ""
+    }
+]

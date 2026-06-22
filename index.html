@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apex Air - Virtual Airline | VATSIM</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo-section">
+                <svg class="logo" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Mountain peaks design -->
+                    <path d="M 30 160 L 80 80 L 120 120 L 150 60 L 180 150 Z" fill="#1a1a1a" opacity="0.3"/>
+                    <path d="M 50 160 L 100 90 L 140 130 L 170 160 Z" fill="#4a4a4a" opacity="0.6"/>
+                    <path d="M 70 160 L 110 100 L 145 160 Z" fill="#7a7a7a"/>
+                </svg>
+                <span class="airline-name">APEX AIR</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#liveries">Liveries</a></li>
+                <li><a href="#schedules">Schedules</a></li>
+                <li><a href="#pilots">Pilots</a></li>
+                <li><a href="#accounts" class="nav-accounts">My Account</a></li>
+                <li><a href="admin/" class="nav-admin" style="color: #ffc107;">Admin</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Apex Air</h1>
+            <p>The premier virtual airline for professional flight simulation on VATSIM</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">Join Our Crew</a>
+                <a href="#about" class="btn btn-secondary">Learn More</a>
+            </div>
+        </div>
+        <div class="hero-background"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Apex Air</h2>
+            <div class="about-grid">
+                <div class="about-card">
+                    <h3>Professional Operations</h3>
+                    <p>Operating with full compliance to VATSIM Code of Conduct and regulations. Our pilots follow realistic procedures and professional standards.</p>
+                </div>
+                <div class="about-card">
+                    <h3>Global Network</h3>
+                    <p>Flying routes across the globe on VATSIM network, connecting pilots worldwide and providing immersive flight experiences.</p>
+                </div>
+                <div class="about-card">
+                    <h3>Safety First</h3>
+                    <p>We prioritize safety and proper procedures. All pilots complete training and adhere to VATSIM standards and regulations.</p>
+                </div>
+                <div class="about-card">
+                    <h3>Community Focused</h3>
+                    <p>We're dedicated to building a friendly and professional community of virtual pilots and aviation enthusiasts.</p>
+                </div>
+            </div>
+            
+            <div class="vatsim-compliance">
+                <h3>VATSIM Compliance</h3>
+                <div class="compliance-grid">
+                    <div class="compliance-item">
+                        <strong>Callsign:</strong> AAX (Apex Air ICAO Code)
+                    </div>
+                    <div class="compliance-item">
+                        <strong>Code of Conduct:</strong> Full Adherence
+                    </div>
+                    <div class="compliance-item">
+                        <strong>IFR Standards:</strong> IFR-certified operations
+                    </div>
+                    <div class="compliance-item">
+                        <strong>ATC Compliance:</strong> Full ATC coordination
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Aircraft Liveries Section -->
+    <section id="liveries" class="liveries">
+        <div class="container">
+            <h2>Aircraft Liveries</h2>
+            <p class="section-subtitle">Current aircraft with available liveries for Apex Air pilots</p>
+            <div class="liveries-grid" id="liveries-container">
+                <!-- Liveries loaded from JavaScript -->
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Schedules Section -->
+    <section id="schedules" class="schedules">
+        <div class="container">
+            <h2>Flight Schedules</h2>
+            <p class="section-subtitle">Current regular routes</p>
+            <table class="schedules-table">
+                <thead>
+                    <tr>
+                        <th>Flight Number</th>
+                        <th>Departure</th>
+                        <th>Destination</th>
+                        <th>Aircraft</th>
+                        <th>Frequency</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>AAX101</td>
+                        <td>KJFK (New York)</td>
+                        <td>EGLL (London)</td>
+                        <td>B777</td>
+                        <td>Daily</td>
+                    </tr>
+                    <tr>
+                        <td>AAX205</td>
+                        <td>KSFO (San Francisco)</td>
+                        <td>RJTT (Tokyo)</td>
+                        <td>B777</td>
+                        <td>Daily</td>
+                    </tr>
+                    <tr>
+                        <td>AAX302</td>
+                        <td>EGLL (London)</td>
+                        <td>LEMD (Madrid)</td>
+                        <td>A320</td>
+                        <td>2x Daily</td>
+                    </tr>
+                    <tr>
+                        <td>AAX403</td>
+                        <td>KDFW (Dallas)</td>
+                        <td>KLAS (Las Vegas)</td>
+                        <td>B737</td>
+                        <td>Daily</td>
+                    </tr>
+                    <tr>
+                        <td>AAX504</td>
+                        <td>LFPG (Paris)</td>
+                        <td>UUWW (Moscow)</td>
+                        <td>A350</td>
+                        <td>5x Weekly</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Pilots Section -->
+    <section id="pilots" class="pilots">
+        <div class="container">
+            <h2>Pilot Community</h2>
+            <div class="pilot-info">
+                <div class="pilot-stat">
+                    <h3>Active Pilots</h3>
+                    <p class="stat-number">47</p>
+                </div>
+                <div class="pilot-stat">
+                    <h3>Flight Hours</h3>
+                    <p class="stat-number">2,340+</p>
+                </div>
+                <div class="pilot-stat">
+                    <h3>Routes Operated</h3>
+                    <p class="stat-number">156</p>
+                </div>
+                <div class="pilot-stat">
+                    <h3>Years in Operation</h3>
+                    <p class="stat-number">5+</p>
+                </div>
+            </div>
+
+            <div class="pilot-requirements">
+                <h3>Pilot Requirements</h3>
+                <ul>
+                    <li>VATSIM Account in good standing</li>
+                    <li>Minimum 50 flight hours on VATSIM</li>
+                    <li>S1 rating or higher (within VATSIM)</li>
+                    <li>Acceptance of Apex Air Code of Conduct</li>
+                    <li>Professional conduct on network</li>
+                    <li>Willingness to follow realistic procedures</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Accounts Section -->
+    <section id="accounts" class="accounts">
+        <div class="container">
+            <div class="accounts-wrapper">
+                <div class="auth-panel auth-login active" id="login-panel">
+                    <h2>Pilot Login</h2>
+                    <form id="login-form" class="auth-form" action="backend/login.php" method="POST">
+                        <input type="text" id="login-username" name="username" placeholder="Pilot Name or Email" required>
+                        <input type="password" id="login-password" name="password" placeholder="Password" required>
+                        <button type="submit" class="btn btn-primary">Login</button>
+                    </form>
+                    <p class="auth-toggle">No account? <a href="#" onclick="switchAuth(event, 'register')">Register here</a></p>
+                </div>
+
+                <div class="auth-panel auth-register" id="register-panel">
+                    <h2>Pilot Registration</h2>
+                    <form id="register-form" class="auth-form" action="backend/register.php" method="POST">
+                        <input type="text" id="register-name" name="name" placeholder="Full Name" required>
+                        <input type="email" id="register-email" name="email" placeholder="Email Address" required>
+                        <input type="text" id="register-vatsim" name="vatsim" placeholder="VATSIM ID" required>
+                        <input type="password" id="register-password" name="password" placeholder="Password (min 8 chars)" required>
+                        <input type="password" id="register-confirm" name="confirm_password" placeholder="Confirm Password" required>
+                        <button type="submit" class="btn btn-primary">Create Account</button>
+                    </form>
+                    <p class="auth-toggle">Already have an account? <a href="#" onclick="switchAuth(event, 'login')">Login here</a></p>
+                </div>
+
+                <div class="pilot-profile" id="pilot-profile" style="display:none;">
+                    <h2>Welcome, <span id="profile-name"></span>!</h2>
+                    <div class="profile-info">
+                        <div class="profile-card">
+                            <h3>VATSIM ID</h3>
+                            <p id="profile-vatsim"></p>
+                        </div>
+                        <div class="profile-card">
+                            <h3>Status</h3>
+                            <p id="profile-status">Pending</p>
+                        </div>
+                        <div class="profile-card">
+                            <h3>Join Date</h3>
+                            <p id="profile-joined">-</p>
+                        </div>
+                    </div>
+                    <a href="#apply" class="btn btn-primary" style="display:inline-block; width:auto; margin-top:1rem;">Apply to Join VA</a>
+                    <button class="btn btn-secondary" onclick="logout()" style="margin-left:0.5rem;">Logout</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Application Section -->
+    <section id="apply" class="apply" style="display:none;">
+        <div class="container">
+            <h2>Apply to Apex Air</h2>
+            <p class="section-subtitle">Complete your application to join our virtual airline</p>
+            <div class="application-form-wrapper">
+                <form id="application-form" class="application-form" action="backend/apply.php" method="POST">
+                    <input type="hidden" id="pilot-id" name="pilot_id">
+                    
+                    <h3>Pilot Information</h3>
+                    <input type="text" id="app-name" name="name" placeholder="Full Name" readonly>
+                    <input type="email" id="app-email" name="email" placeholder="Email" readonly>
+                    <input type="text" id="app-vatsim" name="vatsim_id" placeholder="VATSIM ID" readonly>
+                    
+                    <h3>Flight Experience</h3>
+                    <input type="number" id="app-hours" name="flight_hours" placeholder="Total Flight Hours" required min="0">
+                    <select name="rating" required>
+                        <option value="">Select VATSIM Rating</option>
+                        <option value="S1">S1 - Suspended Pilot</option>
+                        <option value="S2">S2 - Suspended Pilot</option>
+                        <option value="S3">S3 - Suspended Pilot</option>
+                        <option value="C1">C1 - Commercial Pilot</option>
+                        <option value="C3">C3 - Airline Transport Pilot</option>
+                        <option value="I1">I1 - Instructor</option>
+                    </select>
+                    
+                    <h3>Aircraft Preferences</h3>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="aircraft" value="A320"> Airbus A320</label>
+                        <label><input type="checkbox" name="aircraft" value="A321"> Airbus A321</label>
+                        <label><input type="checkbox" name="aircraft" value="B737"> Boeing 737</label>
+                        <label><input type="checkbox" name="aircraft" value="B777"> Boeing 777</label>
+                    </div>
+                    
+                    <h3>Availability</h3>
+                    <div class="radio-group">
+                        <label><input type="radio" name="availability" value="weekdays" required> Weekdays</label>
+                        <label><input type="radio" name="availability" value="weekends"> Weekends</label>
+                        <label><input type="radio" name="availability" value="both"> Both</label>
+                    </div>
+                    
+                    <h3>Agreement</h3>
+                    <label class="checkbox-agreement">
+                        <input type="checkbox" name="agree_conduct" required>
+                        I agree to follow Apex Air Code of Conduct and VATSIM regulations
+                    </label>
+                    <label class="checkbox-agreement">
+                        <input type="checkbox" name="agree_terms" required>
+                        I agree to the terms and conditions
+                    </label>
+                    
+                    <textarea name="additional_info" placeholder="Tell us about yourself (optional)" rows="4"></textarea>
+                    
+                    <button type="submit" class="btn btn-primary">Submit Application</button>
+                    <button type="button" class="btn btn-secondary" onclick="cancelApplication()">Cancel</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <p class="section-subtitle">Interested in joining Apex Air? Contact us today</p>
+            
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <h3>Email</h3>
+                    <p><a href="mailto:recruitment@apexair.eu">recruitment@apexair.eu</a></p>
+                </div>
+                <div class="contact-card">
+                    <h3>Discord</h3>
+                    <p><a href="#" target="_blank">Join Our Server</a></p>
+                </div>
+                <div class="contact-card">
+                    <h3>VATSIM</h3>
+                    <p>Find us on VATSIM Network</p>
+                </div>
+            </div>
+
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Apex Air</h4>
+                    <p>Professional virtual airline operations on VATSIM</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#liveries">Liveries</a></li>
+                        <li><a href="#accounts">My Account</a></li>
+                        <li><a href="admin/">Admin Panel</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>VATSIM Info</h4>
+                    <p>Callsign: APX</p>
+                    <p>ICAO Code: APX</p>
+                    <p><a href="https://vatsim.net" target="_blank">Visit VATSIM</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Apex Air. All rights reserved. | Compliance with <a href="https://vatsim.net/documents/code-of-conduct" target="_blank">VATSIM Code of Conduct</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

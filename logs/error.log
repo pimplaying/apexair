@@ -1,0 +1,114 @@
+[22-Jun-2026 15:05:50 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 25
+[22-Jun-2026 15:05:50 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 26
+[22-Jun-2026 15:05:50 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 27
+[22-Jun-2026 15:05:50 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "FILE_CREATE_NEW" in C:\xampp\htdocs\apexair\backend\config.php:38
+Stack trace:
+#0 C:\xampp\htdocs\apexair\backend\config.php(122): initDatabases()
+#1 C:\xampp\htdocs\apexair\backend\session.php(6): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\apexair\backend\config.php on line 38
+[22-Jun-2026 15:07:10 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 25
+[22-Jun-2026 15:07:10 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 26
+[22-Jun-2026 15:07:10 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 27
+[22-Jun-2026 15:07:10 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "FILE_CREATE_NEW" in C:\xampp\htdocs\apexair\backend\config.php:38
+Stack trace:
+#0 C:\xampp\htdocs\apexair\backend\config.php(122): initDatabases()
+#1 C:\xampp\htdocs\apexair\backend\register.php(6): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\apexair\backend\config.php on line 38
+[22-Jun-2026 15:07:56 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 25
+[22-Jun-2026 15:07:56 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 26
+[22-Jun-2026 15:07:56 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 27
+[22-Jun-2026 15:07:56 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "FILE_CREATE_NEW" in C:\xampp\htdocs\apexair\backend\config.php:38
+Stack trace:
+#0 C:\xampp\htdocs\apexair\backend\config.php(122): initDatabases()
+#1 C:\xampp\htdocs\apexair\backend\register.php(6): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\apexair\backend\config.php on line 38
+[22-Jun-2026 15:08:24 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 25
+[22-Jun-2026 15:08:24 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 26
+[22-Jun-2026 15:08:24 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 27
+[22-Jun-2026 15:08:24 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "FILE_CREATE_NEW" in C:\xampp\htdocs\apexair\backend\config.php:38
+Stack trace:
+#0 C:\xampp\htdocs\apexair\backend\config.php(122): initDatabases()
+#1 C:\xampp\htdocs\apexair\backend\register.php(6): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\apexair\backend\config.php on line 38
+[22-Jun-2026 15:09:50 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 25
+[22-Jun-2026 15:09:50 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 26
+[22-Jun-2026 15:09:50 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 27
+[22-Jun-2026 15:09:50 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "FILE_CREATE_NEW" in C:\xampp\htdocs\apexair\backend\config.php:38
+Stack trace:
+#0 C:\xampp\htdocs\apexair\backend\config.php(122): initDatabases()
+#1 C:\xampp\htdocs\apexair\backend\register.php(6): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\apexair\backend\config.php on line 38
+[22-Jun-2026 15:13:05 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 25
+[22-Jun-2026 15:13:05 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 26
+[22-Jun-2026 15:13:05 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 27
+[22-Jun-2026 15:13:49 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 25
+[22-Jun-2026 15:13:49 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 26
+[22-Jun-2026 15:13:49 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 27
+[22-Jun-2026 15:13:55 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 25
+[22-Jun-2026 15:13:55 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 26
+[22-Jun-2026 15:13:55 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 27
+[22-Jun-2026 15:15:46 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 25
+[22-Jun-2026 15:15:46 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 26
+[22-Jun-2026 15:15:46 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 27
+[22-Jun-2026 15:17:18 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 25
+[22-Jun-2026 15:17:18 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 26
+[22-Jun-2026 15:17:18 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 27
+[22-Jun-2026 15:18:15 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 25
+[22-Jun-2026 15:18:15 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 26
+[22-Jun-2026 15:18:15 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 27
+[22-Jun-2026 15:18:49 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 25
+[22-Jun-2026 15:18:49 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 26
+[22-Jun-2026 15:18:49 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 27
+[22-Jun-2026 15:18:49 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 25
+[22-Jun-2026 15:18:49 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 26
+[22-Jun-2026 15:18:49 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 27
+[22-Jun-2026 15:28:07 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 25
+[22-Jun-2026 15:28:07 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 26
+[22-Jun-2026 15:28:07 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 27
+[22-Jun-2026 15:28:13 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 25
+[22-Jun-2026 15:28:13 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 26
+[22-Jun-2026 15:28:13 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 27
+[22-Jun-2026 15:28:27 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 25
+[22-Jun-2026 15:28:27 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 26
+[22-Jun-2026 15:28:27 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 27
+[22-Jun-2026 15:28:42 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 25
+[22-Jun-2026 15:28:42 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 26
+[22-Jun-2026 15:28:42 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 27
+[22-Jun-2026 15:28:48 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 25
+[22-Jun-2026 15:28:48 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 26
+[22-Jun-2026 15:28:48 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 27
+[22-Jun-2026 15:28:51 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 25
+[22-Jun-2026 15:28:51 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 26
+[22-Jun-2026 15:28:51 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 27
+[22-Jun-2026 15:29:02 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 25
+[22-Jun-2026 15:29:02 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 26
+[22-Jun-2026 15:29:02 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 27
+[22-Jun-2026 15:29:26 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 25
+[22-Jun-2026 15:29:26 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 26
+[22-Jun-2026 15:29:26 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 27
+[22-Jun-2026 15:29:44 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 25
+[22-Jun-2026 15:29:44 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 26
+[22-Jun-2026 15:29:44 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 27
+[22-Jun-2026 15:29:44 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 25
+[22-Jun-2026 15:29:44 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 26
+[22-Jun-2026 15:29:44 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 27
+[22-Jun-2026 15:29:48 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 25
+[22-Jun-2026 15:29:48 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 26
+[22-Jun-2026 15:29:48 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 27
+[22-Jun-2026 15:34:20 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 25
+[22-Jun-2026 15:34:20 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 26
+[22-Jun-2026 15:34:20 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 27
+[22-Jun-2026 15:34:33 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 25
+[22-Jun-2026 15:34:33 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 26
+[22-Jun-2026 15:34:33 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 27
+[22-Jun-2026 15:34:38 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 25
+[22-Jun-2026 15:34:38 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 26
+[22-Jun-2026 15:34:38 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 27
+[22-Jun-2026 15:34:40 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 25
+[22-Jun-2026 15:34:40 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 26
+[22-Jun-2026 15:34:40 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\apexair\backend\config.php on line 27

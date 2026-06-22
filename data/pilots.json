@@ -1,0 +1,13 @@
+[
+    {
+        "id": "pilot_6a3934e1e28756.48357464",
+        "name": "Pim Bakker",
+        "email": "pimbakker2012@gmail.com",
+        "vatsim": "2010539",
+        "password": "$2y$10$0ic80x6lwlFF0ADMuU7pJu7pQztHLU9zbV.Zn463HMoEMryc.IfXO",
+        "status": "approved",
+        "created_at": "2026-06-22 15:13:05",
+        "flight_hours": 0,
+        "flights": 0
+    }
+]
